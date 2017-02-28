@@ -819,7 +819,7 @@ static int format_parse (const char *format_orig,
 		 */
 		['b'] = { {
 				/* Size of response in bytes, with HTTP headers. */
-				{ VSL_CLIENTMARKER, SLT_ReqAcct, .col = 5}
+				{ VSL_CLIENTMARKER, SLT_ReqAcct, .col = 8}
 			} },
 		['D'] = { {
 				/* Time taken to serve the request (s) */
